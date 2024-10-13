@@ -1,0 +1,134 @@
+* {
+    padding: 0;
+}
+
+.pad {
+    padding: 0;
+}
+
+/**** Header ****/
+.Header {
+    padding: 0;
+    position: relative;
+}
+
+.Header img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 0;
+}
+
+.Header-Products {
+    padding: 20px 25px;
+    position: relative;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.Header-col {
+    margin: 20px 0px;
+}
+
+.Header-Product {
+    width: 100%;
+    height: auto;
+}
+
+.Header-Product::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 20px;
+    background: linear-gradient(45deg, #004103 33%, #058d00 67%, #26e400 100%);
+    z-index: -1;
+    /* Coloca la sombra detrás del elemento */
+    filter: blur(15px);
+}
+
+.Header-Product:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.Header-Product img {
+    position: static;
+    filter: grayscale(100%);
+    transition: filter 0.3s ease;
+    border: solid 3px #26e400;
+    border-radius: 5px;
+}
+
+.Header-Product:hover img {
+    filter: grayscale(0);
+}
+
+.Header-Product .Header-Text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Header-Product h1 {
+    padding: 2px 5px;
+    background-color: #333333;
+    border: solid 2px black;
+    border-radius: 10px;
+    color: white;
+    transition: filter 0.3s ease;
+}
+
+.Header-Product:hover h1 {
+    background-color: #058d00;
+}
+
+
+@media (max-width: 992px) {
+    .Header-Products {
+        padding: 0px 100px;
+    }
+
+    .Header-col {
+        margin: 5px 0px;
+        max-width: 225px;
+    }
+}
+
+@media (max-width: 768px) {
+    .Header img {
+        position: static;
+    }
+
+    .Header-Products {
+        padding: 5px 25px;
+    }
+
+    .Header-col {
+        max-width: 250px;
+    }
+    .Header-Product img {
+        filter: grayscale(0);
+    }
+    .Header-Product h1 {
+        background-color: #058d00;
+    }
+}
+
+@media (max-width: 576px) {
+    .Header-Products {
+        padding: 5px 10px;
+    }
+
+    .Header-col {
+        max-width: 180px;
+    }
+}
