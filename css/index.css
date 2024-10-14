@@ -8,6 +8,8 @@ h1 {
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
+
 /**** Header ****/
 .Header {
     padding: 0;
@@ -81,13 +83,13 @@ h1 {
 }
 /**** Fin Header ****/
 
+
 /**** Oferta ****/
 .Oferta {
     padding: 0;
     margin-top: 30px;
     margin-bottom: 30px;
 }
-
 .Oferta-Carousel {
     padding: 0;
     max-width: 500px;
@@ -112,7 +114,6 @@ h1 {
 .Info-Direccion {
     margin: 0;
     padding: 0;
-    background-color: #004103;
 }
 .Info-Direccion .Imagen {
     max-width: 500px;
@@ -134,6 +135,43 @@ h1 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 /**** Fin Direccion ****/
+
+
+/**** Footer ****/
+.Footer {
+    padding: 10px;
+    background-color: #058d00;
+}
+.Footer-Col {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: left;
+}
+.Footer-Col img {
+    width: 50%;
+}
+.Footer-Col h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+    width: 100%;
+    font-weight: bold;
+    border-bottom: solid 1px black;
+    border-top: solid 1px black;
+}
+.Footer-Col p {
+    width: 100%;
+    text-align: left;
+    display: block;
+    color: white;
+    margin: 5px;
+    padding: 0;
+}
+.Footer-Col i {
+    margin-right: 8px;
+    color: black;
+}
+/**** Fin Footer ****/
 
 
 @media (max-width: 992px) {
@@ -164,7 +202,7 @@ h1 {
         filter: grayscale(0);
     }
     .Header-Product h1 {
-        background-color: #058d00;
+        font-size: 30px;
     }
     /**** Fin Header ****/
 }
@@ -178,7 +216,7 @@ h1 {
         max-width: 180px;
     }
     .Header-Product h1 {
-        font-size: 30px;
+        font-size: 25px;
     }
     /**** Fin Header ****/
 }
