@@ -11,6 +11,7 @@
 .nav-style a {
     color: white;
     border-radius: 5px;
+    margin-left: 5px;
 }
 .nav-style a:hover {
     color: #26e400;

@@ -1,41 +1,38 @@
 * {
     padding: 0;
 }
-
 .pad {
     padding: 0;
 }
-
+h1 {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 /**** Header ****/
 .Header {
     padding: 0;
     position: relative;
 }
-
 .Header img {
-    position: absolute;
-    top: 0;
-    left: 0;
+    position: relative;
     width: 100%;
     z-index: 0;
 }
-
 .Header-Products {
     padding: 20px 25px;
-    position: relative;
+    position: absolute;
+    top: 0;
+    left: 0;
     z-index: 1;
     cursor: pointer;
 }
-
 .Header-col {
     margin: 20px 0px;
 }
-
 .Header-Product {
     width: 100%;
     height: auto;
 }
-
 .Header-Product::before {
     content: "";
     position: absolute;
@@ -49,24 +46,17 @@
     /* Coloca la sombra detrás del elemento */
     filter: blur(15px);
 }
-
 .Header-Product:hover {
     transform: scale(1.1);
     transition: 0.3s;
 }
-
 .Header-Product img {
     position: static;
-    filter: grayscale(100%);
+    filter: grayscale(0);
     transition: filter 0.3s ease;
     border: solid 3px #26e400;
     border-radius: 5px;
 }
-
-.Header-Product:hover img {
-    filter: grayscale(0);
-}
-
 .Header-Product .Header-Text {
     position: absolute;
     top: 0;
@@ -77,41 +67,93 @@
     align-items: center;
     justify-content: center;
 }
-
 .Header-Product h1 {
+    font-size: 40px;
     padding: 2px 5px;
-    background-color: #333333;
+    background-color: #058d00;
     border: solid 2px black;
     border-radius: 10px;
     color: white;
     transition: filter 0.3s ease;
 }
-
 .Header-Product:hover h1 {
-    background-color: #058d00;
+    background-color: #333333;
 }
+/**** Fin Header ****/
+
+/**** Oferta ****/
+.Oferta {
+    padding: 0;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.Oferta-Carousel {
+    padding: 0;
+    max-width: 500px;
+    border: solid 3px #26e400;
+    border-radius: 5px;
+}
+.Oferta-Carousel img{
+    width: 100%;
+}
+.carousel-icon {
+    background-color: #26e400;
+    border-radius: 50%;
+    padding: 5px;
+}
+/**** Fin Oferta ****/
+
+
+/**** Direccion ****/
+.Direccion {
+    padding: 0;
+}
+.Info-Direccion{
+    padding: 0;
+}
+.Info-Direccion .Imagen {
+    max-width: 500px;
+    padding: 10px;
+}
+.Info-Direccion img {
+    width: 100%;
+    border: solid 3px #26e400;
+    border-radius: 5px;
+}
+.Info-Direccion .Mapa {
+    max-width: 500px;
+    padding: 10px;
+}
+.Direccion h3 {
+    padding: 10px 20px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/**** Fin Direccion ****/
 
 
 @media (max-width: 992px) {
+    /**** Header ****/
     .Header-Products {
         padding: 0px 100px;
     }
-
     .Header-col {
         margin: 5px 0px;
         max-width: 225px;
     }
+    /**** Fin Header ****/
 }
 
 @media (max-width: 768px) {
+    /**** Header ****/
     .Header img {
         position: static;
     }
-
     .Header-Products {
+        position: static;
         padding: 5px 25px;
     }
-
     .Header-col {
         max-width: 250px;
     }
@@ -121,14 +163,19 @@
     .Header-Product h1 {
         background-color: #058d00;
     }
+    /**** Fin Header ****/
 }
 
 @media (max-width: 576px) {
+    /**** Header ****/
     .Header-Products {
         padding: 5px 10px;
     }
-
     .Header-col {
         max-width: 180px;
     }
+    .Header-Product h1 {
+        font-size: 35px;
+    }
+    /**** Fin Header ****/
 }
