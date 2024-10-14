@@ -109,8 +109,10 @@ h1 {
 .Direccion {
     padding: 0;
 }
-.Info-Direccion{
+.Info-Direccion {
+    margin: 0;
     padding: 0;
+    background-color: #004103;
 }
 .Info-Direccion .Imagen {
     max-width: 500px;
@@ -124,6 +126,7 @@ h1 {
 .Info-Direccion .Mapa {
     max-width: 500px;
     padding: 10px;
+    background-color: #058d00;
 }
 .Direccion h3 {
     padding: 10px 20px;
@@ -175,7 +178,7 @@ h1 {
         max-width: 180px;
     }
     .Header-Product h1 {
-        font-size: 35px;
+        font-size: 30px;
     }
     /**** Fin Header ****/
 }
