@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+}
+.pad {
+    padding: 0;
+}
+h1 {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/****  Bicicletas ****/
+.Bici-carousel {
+    padding: 0;
+    border: solid 3px #26e400;
+    border-radius: 10px;
+    max-width: 400px;
+    margin: 10px;
+}
+.carousel-icon {
+    background-color: #26e400;
+    border-radius: 50%;
+    padding: 5px;
+}
+/*
+.Bici-Info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    background-color: black;
+}
+.Bici-Info h3 {
+    color: #bbff00fb;
+}
+.Bici-Info p {
+    color: white;
+    padding: 0;
+    margin: 0;
+}*/
+/****  Fin Bicicletas ****/

@@ -15,7 +15,6 @@
 }
 .nav-style a:hover {
     color: #26e400;
-    font-weight: bold;
     background-color: white;
     transition: 0.3s ease;
 } 
