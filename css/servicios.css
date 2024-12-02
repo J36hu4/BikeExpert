@@ -1,0 +1,81 @@
+* {
+    padding: 0;
+}
+body {
+    overflow-x: hidden;
+}
+.pad {
+    padding: 0;
+}
+h1 {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#scrollTopBtn {
+    display: none; /* Oculto inicialmente */
+    position: fixed;
+    bottom: 15px;
+    right: 23px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: rgb(146, 211, 24);
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    width: 30px;
+    height: 30px;
+}
+#scrollTopBtn:hover {
+    background-color: rgb(73, 110, 5);
+}
+
+#Servicios .row {
+    margin: 0;
+    padding: 25px 5px;
+    gap: 10px;
+}
+
+#Servicios .servicio {
+    background-color: rgba(123, 255, 0, 0.3);
+    border: rgb(146, 211, 24) 3px solid;
+    min-height: 100px;
+    padding: 0;
+    margin: 0;
+    border-radius: 10px;
+}
+
+.servicio img {
+    width: 100%;
+    border-radius: 10px;
+    border: rgb(146, 211, 24) 1.5px solid;
+}
+
+.servicio .info {
+    padding: 5px;
+    height: 100%;
+    h2 {
+        font-size: 25px;
+        padding-right: 5px;
+        display: inline;
+        border: 1px solid rgb(146, 211, 24);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: white;
+        font-weight: bold;
+        border-radius: 6px;
+        background-color: black;
+        span {
+            font-weight: normal;
+            color: black;
+            background-color: rgb(146, 211, 24);
+            border-radius: 5px;
+            padding: 0 2px;
+        }
+    };
+    p {
+        margin: auto;
+        color: white;
+        padding: 10px;
+    }
+}

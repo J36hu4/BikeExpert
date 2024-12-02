@@ -1,6 +1,9 @@
 * {
     padding: 0;
 }
+body {
+    overflow-x: hidden;
+}
 .pad {
     padding: 0;
 }
@@ -8,18 +11,82 @@ h1 {
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+#scrollTopBtn {
+    display: none; /* Oculto inicialmente */
+    position: fixed;
+    bottom: 15px;
+    right: 23px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: rgb(146, 211, 24);
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    width: 30px;
+    height: 30px;
+}
+#scrollTopBtn:hover {
+    background-color: rgb(47, 68, 7);
+}
+
+#Productos {
+    min-height: calc(100vh - 60px);
+}
+
+.Filtros ul {
+    list-style-type: none; /* Quitar la decoración de la lista */
+    padding: 20px 0 0 0;
+    margin: 0;
+    display: flex; /* Acomodar la lista en horizontal */
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.Filtros li {
+    margin: 0 3px; /* Espaciado entre los elementos */
+}
+
+.Filtros a {
+    padding: 5px;
+    border-radius: 5px;
+    text-decoration: none; /* Quitar la subrayado de los enlaces */
+    color: rgb(255, 255, 255); /* Color del texto */
+}
+
+.Filtros a.active {
+    color: #000000;
+    background-color: rgb(146, 211, 24);
+    transition: 0.3s ease;
+}
+
+.Filtros a:hover {
+    color: #000000;
+    background-color: rgb(146, 211, 24);
+    transition: 0.3s ease;
+    text-decoration: none;
+}
+
+#pro {
+    padding: 10px;
+}
 
 /****  Bicicletas ****/
 .Bici-carousel {
     padding: 0;
-    border: solid 3px #26e400;
+    border: solid 3px rgb(146, 211, 24);
     border-radius: 10px;
     max-width: 400px;
     margin: 10px;
 }
+.Bici-carousel img {
+    border-radius: 6.5px;
+}
 .carousel-icon {
-    background-color: #26e400;
-    border-radius: 50%;
+    background-color: rgb(146, 211, 24);
+    border-radius: 25%;
     padding: 5px;
 }
 /*

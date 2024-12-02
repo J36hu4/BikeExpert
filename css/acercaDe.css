@@ -1,0 +1,88 @@
+* {
+    padding: 0;
+}
+body {
+    overflow-x: hidden;
+}
+.pad {
+    padding: 0;
+}
+h1 {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#scrollTopBtn {
+    display: none; /* Oculto inicialmente */
+    position: fixed;
+    bottom: 15px;
+    right: 23px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: rgb(146, 211, 24);
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    width: 30px;
+    height: 30px;
+}
+#scrollTopBtn:hover {
+    background-color: rgb(47, 68, 7);
+}
+#Contenido {
+    min-height: calc(100vh - 60px);
+}
+
+#Descripcion {
+    padding: 20px;
+    color: white;
+    p {
+        padding: 5px;
+        border: solid 2px rgb(146, 211, 24);
+        border-radius: 10px;
+        background-color: rgba(123, 255, 0, 0.3);
+        span {
+            font-size: 25px;
+            padding-right: 5px;
+            display: inline;
+            border: 1px solid rgb(146, 211, 24);
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: white;
+            font-weight: bold;
+            border-radius: 6px;
+            background-color: black;
+            span{
+                font-weight: normal;
+                color: black;
+                background-color: rgb(146, 211, 24);
+                border-radius: 5px;
+                padding: 0 2px;
+            }
+        }
+    }
+}
+
+#Programador {
+    width: auto;
+    margin: 20px;
+    padding-bottom: 5px;
+    border: solid 2px rgb(146, 211, 24);
+    border-radius: 10px;
+    background-color: rgba(123, 255, 0, 0.3);
+    h2{
+        color: white;
+    }
+    img{
+        width: auto;
+        height: 200px;
+        border-radius: 10px;
+    }
+    p{
+        color: white;
+        i {
+            margin-right: 8px;
+            color: rgb(146, 211, 24);
+        }
+    }
+}

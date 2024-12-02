@@ -1,0 +1,108 @@
+[
+    {   
+        "id": 0,
+        "tipo": "Bici",
+        "Fotos": ["../img/Bicicletas/Bici_1.1.jpg", "../img/Bicicletas/Bici_1.2.jpg", "../img/Bicicletas/Bici_1.3.jpg", "../img/Bicicletas/Bici_1.4.jpg"]
+    },
+    {   
+        "id": 1,
+        "tipo": "Bici",
+        "Fotos": ["../img/Bicicletas/Bici_2.1.jpg", "../img/Bicicletas/Bici_2.2.jpg", "../img/Bicicletas/Bici_2.3.jpg", "../img/Bicicletas/Bici_2.4.jpg"]
+    },
+    {   
+        "id": 2,
+        "tipo": "Bici",
+        "Fotos": ["../img/Bicicletas/Bici_3.1.jpg", "../img/Bicicletas/Bici_3.2.jpg", "../img/Bicicletas/Bici_3.3.jpg", "../img/Bicicletas/Bici_3.4.jpg" ]
+    },
+    {   
+        "id": 3,
+        "tipo": "Bici",
+        "Fotos": ["../img/Bicicletas/Bici_4.1.jpg", "../img/Bicicletas/Bici_4.2.jpg", "../img/Bicicletas/Bici_4.3.jpg","../img/Bicicletas/Bici_4.4.jpg"]
+    },
+    {   
+        "id": 4,
+        "tipo": "Bici",
+        "Fotos": ["../img/Bicicletas/Bici_5.1.jpg","../img/Bicicletas/Bici_5.2.jpg","../img/Bicicletas/Bici_5.3.jpg", "../img/Bicicletas/Bici_5.4.jpg"]
+    },
+    {   
+        "id": 5,
+        "tipo": "Bici",
+        "Fotos": ["../img/Bicicletas/Bici_6.4.jpg", "../img/Bicicletas/Bici_6.2.jpg", "../img/Bicicletas/Bici_6.3.jpg", "../img/Bicicletas/Bici_6.1.jpg"]
+    },
+    {   
+        "id": 6,
+        "tipo": "Bici",
+        "Fotos": ["../img/Bicicletas/Bici_7.1.jpg", "../img/Bicicletas/Bici_7.2.jpg"]
+    },
+    {   
+        "id": 7,
+        "tipo": "Casco",
+        "Fotos": ["../img/Cascos/Casco_1.1.jpg", "../img/Cascos/Casco_1.2.jpg"]
+    },
+    {   
+        "id": 8,
+        "tipo": "Casco",
+        "Fotos": ["../img/Cascos/Casco_2.1.jpg", "../img/Cascos/Casco_2.2.jpg", "../img/Cascos/Casco_2.3.jpg", "../img/Cascos/Casco_2.4.jpg"]
+    },
+    {   
+        "id": 9,
+        "tipo": "Gadllets",
+        "Fotos": ["../img/Gadllets/RodilloMagnetico.jpg"]
+    },
+    {   
+        "id": 10,
+        "tipo": "Gadllets",
+        "Fotos": ["../img/Gadllets/RodiolloMagQR.jpg"]
+    },
+    {   
+        "id": 11,
+        "tipo": "Respuestos",
+        "Fotos": ["../img/Respuestos/Aro_1.1.jpg", "../img/Respuestos/Aro_1.2.jpg", "../img/Respuestos/Aro_1.3.jpg", "../img/Respuestos/Aro_1.4.jpg"]
+    },
+    {   
+        "id": 12,
+        "tipo": "Respuestos",
+        "Fotos": ["../img/Respuestos/Asiento_1.jpg"]
+    },
+    {   
+        "id": 13,
+        "tipo": "Respuestos",
+        "Fotos": ["../img/Respuestos/Kit_1.jpg"]
+    },
+    {   
+        "id": 14,
+        "tipo": "Respuestos",
+        "Fotos": ["../img/Respuestos/Llanta_1.jpg", "../img/Respuestos/Llanta_2.jpg"]
+    },
+    {   
+        "id": 15,
+        "tipo": "Respuestos",
+        "Fotos": ["../img/Respuestos/Monoplato_1.1.jpg", "../img/Respuestos/Monoplato_1.2.jpg","../img/Respuestos/Monoplato_1.3.jpg","../img/Respuestos/Monoplato_1.4.jpg","../img/Respuestos/Monoplato_1.5.jpg"]
+    },
+    {   
+        "id": 16,
+        "tipo": "Respuestos",
+        "Fotos": ["../img/Respuestos/SetElectricioXt.jpg"]
+    },
+    {   
+        "id": 17,
+        "tipo": "Ropa",
+        "Fotos": ["../img/Ropa/Bolso_1.1.jpg", "../img/Ropa/Bolso_1.2.jpg", "../img/Ropa/Bolso_1.3.jpg", "../img/Ropa/Bolso_1.4.jpg","../img/Ropa/Bolso_1.5.jpg"]
+    },
+    {   
+        "id": 18,
+        "tipo": "Ropa",
+        "Fotos": ["../img/Ropa/Guante_1.jpg"]
+    },
+    {   
+        "id": 19,
+        "tipo": "Ropa",
+        "Fotos": ["../img/Ropa/Lentes_1.1.jpg", "../img/Ropa/Lentes_1.2.jpg","../img/Ropa/Lentes_1.3.jpg","../img/Ropa/Lentes_1.4.jpg","../img/Ropa/Lentes_1.5.jpg","../img/Ropa/Lentes_1.6.jpg"]
+    },
+    {   
+        "id": 20,
+        "tipo": "Ropa",
+        "Fotos": ["../img/Ropa/Medias_1.1.jpg", "../img/Ropa/Medias_1.2.jpg"]
+    }
+
+]

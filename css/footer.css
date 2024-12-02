@@ -1,0 +1,43 @@
+/**** Footer ****/
+.Footer {
+    margin: 0;
+    width: 100%;
+    padding: 10px;
+    background-color: #058d00;
+}
+.Footer-Col {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: left;
+}
+.Footer-Col img {
+    width: 50%;
+}
+.Footer-Col h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+    width: 100%;
+    font-weight: bold;
+    border-bottom: solid 1px black;
+    border-top: solid 1px black;
+}
+.Footer-Col p {
+    width: 100%;
+    text-align: left;
+    display: block;
+    color: white;
+    margin: 5px;
+    padding: 0;
+}
+.Footer-Col i {
+    margin-right: 8px;
+    color: black;
+}
+.Footer-Col a {
+    color: white;
+}
+.Footer-Col a:hover {
+    text-decoration: underline;
+}
+/**** Fin Footer ****/

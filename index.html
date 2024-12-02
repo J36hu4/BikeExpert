@@ -21,9 +21,11 @@
     <!-- Template Stylesheet -->
     <link href="css/index.css" rel="stylesheet">
     <link href="css/nav.css" rel="stylesheet">
+    <link href="css/footer.css" rel="stylesheet">
 </head>
 
-<body style="background-color: rgb(92, 92, 92);">
+<body style="background-color: rgb(65, 88, 22);">
+    <button onclick="scrollToTop()" id="scrollTopBtn" title="Volver arriba">↑</button>
 
     <!-- Nav -->
     <div id="Home" class="container-fluid pad">
@@ -40,26 +42,17 @@
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="#Home">Inicio</a>
                         </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                aria-expanded="false">
-                                Productos
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="productos.html">Bicicletas</a></li>
-                                <li><a class="dropdown-item" href="">Cascos</a></li>
-                                <li><a class="dropdown-item" href="">Ropa</a></li>
-                                <li><a class="dropdown-item" href="">Repuestos</a></li>
-                            </ul>
+                        <li class="nav-item">
+                            <a class="nav-link" href="html/productos.html">Productos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="">Servicios</a>
+                            <a class="nav-link" href="html/servicios.html">Servicios</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="">Contacto</a>
+                            <a class="nav-link" href="html/contacto.html">Contacto</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="">Acerca de</a>
+                            <a class="nav-link" href="html/acercaDe.html">Acerca de</a>
                         </li>
                     </ul>
                 </div>
@@ -75,8 +68,8 @@
             <img class="d-block w-100" src="img/Fondo.jpg" alt="">
             <div class="container-xxl Header-Products">
                 <div class="row justify-content-center">
-                    <div class="col-lg-3 Header-col">
-                        <a href="#">
+                    <div class="col-6 col-md-6 col-lg-3 Header-col">
+                        <a href="html/productos.html?filter=bicicleta">
                             <div class="Header-Product">
                                 <img src="img/Product-Bike1.jpg" alt="">
                                 <div class="Header-Text">
@@ -85,8 +78,8 @@
                             </div>
                         </a>
                     </div>
-                    <div class="col-lg-3 Header-col">
-                        <a href="#">
+                    <div class="col-6 col-md-6 col-lg-3 Header-col">
+                        <a href="html/productos.html?filter=cascos">
                             <div class="Header-Product">
                                 <img src="img/Product-Casco1.jpg" alt="">
                                 <div class="Header-Text">
@@ -95,8 +88,8 @@
                             </div>
                         </a>
                     </div>
-                    <div class="col-lg-3 Header-col">
-                        <a href="#">
+                    <div class="col-6 col-md-6 col-lg-3 Header-col">
+                        <a href="html/productos.html?filter=ropa">
                             <div class="Header-Product">
                                 <img src="img/Product-Ropa1.jpg" alt="">
                                 <div class="Header-Text">
@@ -105,8 +98,8 @@
                             </div>
                         </a>
                     </div>
-                    <div class="col-lg-3 Header-col">
-                        <a href="#">
+                    <div class="col-6 col-md-6 col-lg-3 Header-col">
+                        <a href="html/productos.html?filter=respuestos">
                             <div class="Header-Product">
                                 <img src="img/Product-Repuesto1.jpg" alt="">
                                 <div class="Header-Text">
@@ -153,7 +146,7 @@
         <!-- Fin Ofertas -->
 
         <!-- Direccion -->
-        <div class="container-xl text-center Direccion">
+        <div class="container-md text-center Direccion">
             <h1>DIRECCIÓN</h1>
             <div class="row justify-content-center Info-Direccion">
                 <div class="col-lg-6 Imagen">
@@ -167,19 +160,24 @@
         </div>
         <!-- Fin Direccion -->
 
+        <br>
+
         <!-- Footer -->
-         <div class="container-xxl text-center Footer">
+        <div class="container-xxl text-center Footer">
             <div class="row justify-content-center">
                 <div class="col-lg-3 Footer-Col">
-                    
                     <img src="img/BikeExpertLogo.png" alt="Bike Expert Xtremo">
                     <div class="Footer-content">
+                        <p>Venta de todo tipo de Bicicletas, Bicis Electricas(E-BIKE), Bicimotos, ETC.
+                            Ofrecemos todo tipo de accesorios, respuestos, reparacion y mantenimeinto.
+                            Llamenos, le cotizamos y asesoramos de acuerdo a su presupuesto la mejor opcion.
+                        </p>
                     </div>
                 </div>
                 <div class="col-lg-3 Footer-Col">
                     <h3>HORARIO</h3>
                     <div class="Footer-content">
-                        <p>Lunes a Sabado de 9 AM a 6 PM</p>
+                        <p>Lunes a Sabado de 9:00 AM a 5:50 PM</p>
                         <p>Domingo cerrado</p>
                     </div>
                 </div>
@@ -200,11 +198,10 @@
                     <a class="Footer-content">
                         <p><a href="https://www.facebook.com/share/ZELadj1WhshYaU8K/"><i class="bi bi-facebook"></i>Ciclo Bike Expert Xtremo</a></p>
                         <p><a href="https://www.instagram.com/ciclo_xtremo_bike_expert?igsh=dmJ4bXR1MnRjZDdh"><i class="bi bi-instagram"></i>ciclo_xtremo_bike_expert</a></p>
-                    </div>
-                    
                 </div>
+                    
             </div>
-         </div>
+        </div>
         <!-- Fin Footer -->
     </div>
 
@@ -213,6 +210,8 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <script src="../JavaScript/scrollBtn.js"></script>
 
 </body>
 

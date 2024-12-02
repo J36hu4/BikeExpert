@@ -1,12 +1,34 @@
 * {
     padding: 0;
 }
+body {
+    overflow-x: hidden;
+}
 .pad {
     padding: 0;
 }
 h1 {
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#scrollTopBtn {
+    display: none; /* Oculto inicialmente */
+    position: fixed;
+    bottom: 15px;
+    right: 23px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: rgb(146, 211, 24);
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    width: 30px;
+    height: 30px;
+}
+#scrollTopBtn:hover {
+    background-color: rgb(47, 68, 7);
 }
 
 
@@ -43,20 +65,20 @@ h1 {
     right: 0;
     bottom: 0;
     border-radius: 20px;
-    background: linear-gradient(45deg, #004103 33%, #058d00 67%, #26e400 100%);
+    background: linear-gradient(45deg, #004103 33%, #058d00 67%, rgb(146, 211, 24) 100%);
     z-index: -1;
     /* Coloca la sombra detrás del elemento */
     filter: blur(15px);
 }
 .Header-Product:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
     transition: 0.3s;
 }
 .Header-Product img {
     position: static;
     filter: grayscale(0);
     transition: filter 0.3s ease;
-    border: solid 3px #26e400;
+    border: solid 3px rgb(146, 211, 24);
     border-radius: 5px;
 }
 .Header-Product .Header-Text {
@@ -72,7 +94,7 @@ h1 {
 .Header-Product h1 {
     font-size: 40px;
     padding: 2px 5px;
-    background-color: #058d00;
+    background-color: rgb(146, 211, 24);
     border: solid 2px black;
     border-radius: 10px;
     color: white;
@@ -86,22 +108,33 @@ h1 {
 
 /**** Oferta ****/
 .Oferta {
-    padding: 0;
+    background-color: rgba(123, 255, 0, 0.3);
+    border: solid 3px rgb(146, 211, 24);
+    border-radius: 15px;
+    padding: 10px 5px;
     margin-top: 30px;
     margin-bottom: 30px;
+    h1 {
+        background-color: black;
+        display: inline;
+        padding: 1px 4px;
+        border-radius: 5px;
+        border: solid 3px rgb(146, 211, 24);
+    }
 }
 .Oferta-Carousel {
+    margin-top: 10px;
     padding: 0;
     max-width: 500px;
-    border: solid 3px #26e400;
+    border: solid 3px rgb(146, 211, 24);
     border-radius: 5px;
 }
 .Oferta-Carousel img{
     width: 100%;
 }
 .carousel-icon {
-    background-color: #26e400;
-    border-radius: 50%;
+    background-color: rgb(146, 211, 24);
+    border-radius: 25%;
     padding: 5px;
 }
 /**** Fin Oferta ****/
@@ -109,7 +142,17 @@ h1 {
 
 /**** Direccion ****/
 .Direccion {
-    padding: 0;
+    padding: 10px 5px;
+    background-color: rgba(123, 255, 0, 0.3);
+    border: solid 3px rgb(146, 211, 24);
+    border-radius: 15px;
+    h1 {
+        background-color: black;
+        display: inline;
+        padding: 1px 4px;
+        border-radius: 5px;
+        border: solid 3px rgb(146, 211, 24);
+    }
 }
 .Info-Direccion {
     margin: 0;
@@ -121,7 +164,7 @@ h1 {
 }
 .Info-Direccion img {
     width: 100%;
-    border: solid 3px #26e400;
+    border: solid 3px rgb(146, 211, 24);
     border-radius: 5px;
 }
 .Info-Direccion .Mapa {
@@ -132,7 +175,7 @@ h1 {
     width: 100%;
     height: 100%;
     min-height: 350px;
-    border: solid 3px #26e400;
+    border: solid 3px rgb(146, 211, 24);
     border-radius: 5px;
 }
 .Direccion h3 {
@@ -144,47 +187,7 @@ h1 {
 /**** Fin Direccion ****/
 
 
-/**** Footer ****/
-.Footer {
-    padding: 10px;
-    background-color: #058d00;
-}
-.Footer-Col {
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    justify-content: left;
-}
-.Footer-Col img {
-    width: 50%;
-}
-.Footer-Col h3 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-align: left;
-    width: 100%;
-    font-weight: bold;
-    border-bottom: solid 1px black;
-    border-top: solid 1px black;
-}
-.Footer-Col p {
-    width: 100%;
-    text-align: left;
-    display: block;
-    color: white;
-    margin: 5px;
-    padding: 0;
-}
-.Footer-Col i {
-    margin-right: 8px;
-    color: black;
-}
-.Footer-Col a {
-    color: white;
-}
-.Footer-Col a:hover {
-    text-decoration: underline;
-}
-/**** Fin Footer ****/
+
 
 
 @media (max-width: 992px) {

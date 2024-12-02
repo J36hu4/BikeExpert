@@ -2,6 +2,7 @@
     background-image: linear-gradient(45deg, 
     #000000 25%, #004103 50%,#058d00 75%, #26e400 100%);
     padding-left: 0;
+    min-height: 60px;
 }
 
 .nav-style img {
